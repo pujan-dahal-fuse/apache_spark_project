@@ -1,0 +1,10 @@
+###Tasks
+1. Correlation between wind speed and average temperature
+2. Standard deviation for average temperature for each country in the month of May each year, and find the country with lowest standard deviation.
+3. Max temperature that each country has ever had
+4. Top 5 hottest days in all Japan.
+5. Difference of each country’s average temperature from global average temperature for 2020. (Window Function)
+6. Rolling average of wind speed in Japan for the month of May 2021 (Window Function)
+7. Find hottest and coldest day of Japan for each month in 2021
+8. Find 3 windiest days of Canada for each month  in 2020
+9. Lowest wind speed for each continent (join) and the country, date on which it was recorded.

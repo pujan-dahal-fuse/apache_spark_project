@@ -1,0 +1,13 @@
+# Tasks of Pujan
+
+# Qn. 1. Find the global average temperature each year. Is it increasing ?
+# Qn. 2. Correlation and population covariance between wind speed and air pressure.
+# Qn. 3. Max temperature for each country in the month of July each year.
+# Qn. 4. Standard deviation of max temperature for each country in the month of july each year.
+# Qn. 5. Min temperature that each country has ever had and the date at which it happened (window function)
+# Qn. 6. Find the 5 coldest days in Canada (use min avg temp) (Window Function)
+# Qn. 7. Difference of each country’s average temperature from global average temperature for 2019.
+# Qn. 8. Rolling average of temperature in Belgium for the month of July 2019 (Window Function)
+# Qn. 9. Find hottest and coldest day of UK for each month in 2020 (use tmin, tmax)
+# Qn. 10. Fastest wind speed for USA and Canada each month of 2021 (pivot table)
+# Qn. 11. Lowest temperatures for each continent (join) and the country, date on which it was recorded.

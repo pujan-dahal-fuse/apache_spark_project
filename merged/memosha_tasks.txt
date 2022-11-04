@@ -1,0 +1,11 @@
+# Tasks of Memosha
+
+# 1. Correlation between latitude and average temperature
+# 2. Min temperature for each country in the month of May each year.
+# 3. Standard deviation of min temperature for each country in the month of may each year.
+# 4. 5 windiest  days in Belgium
+# 5. Difference of each country’s average temperature from global average temperature for 2021.  (Window Function)
+# 6. Rolling average of temperature in Canada for the month of December 2020 (Window Function)
+# 7. Find hottest and coldest day of Australia for each month in 2019.
+# 8. Find 4 windiest days of Canada in 2020.
+# 9. Highest temperatures for each continent (join) and the country, date on which it was recorded.

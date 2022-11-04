@@ -19,20 +19,10 @@ weather_df = spark\
     .read\
     .option('inferSchema', 'true')\
     .option('header', 'true')\
-    .csv('../cleaned_data/cleaned_weather_data.csv')
+    .csv('cleaned_data/cleaned_weather_data.csv')
 
 weather_df.cache().show(10)
 weather_df.printSchema()
-# load continents data
-
-continents_df = spark\
-    .read\
-    .option('inferSchema', 'true')\
-    .option('header', 'true')\
-    .csv('../cleaned_data/cleaned_country_continent.csv')
-
-continents_df.cache().show(10)
-continents_df.printSchema()
 
 # load continents data
 
@@ -40,10 +30,11 @@ continents_df = spark\
     .read\
     .option('inferSchema', 'true')\
     .option('header', 'true')\
-    .csv('../cleaned_data/cleaned_country_continent.csv')
+    .csv('cleaned_data/cleaned_country_continent.csv')
 
 continents_df.cache().show(10)
 continents_df.printSchema()
+
 
 #######
 # Qn. 1. Find the global average temperature each year. Is it increasing ?

@@ -7,4 +7,4 @@
 6. Rolling average of wind speed in Japan for the month of May 2021 (Window Function)
 7. Find hottest and coldest day of Japan for each month in 2021
 8. Find 3 windiest days of Canada for each month  in 2020
-9. Lowest wind speed for each continent (join) and the country, date on which it was recorded.
+9. Highest and Lowest wind speed for each continent (join) and the country, date on which it was recorded.

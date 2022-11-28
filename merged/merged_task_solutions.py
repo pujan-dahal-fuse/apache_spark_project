@@ -9,7 +9,7 @@ postgres_password = ''
 
 spark = SparkSession\
     .builder\
-    .appName('Combined Solutions')\
+    .appName('MergedSolutions')\
     .config('spark.driver.extraClassPath', '/usr/lib/jvm/java-19-openjdk/lib/postgresql-42.5.0.jar')\
     .getOrCreate()
 
@@ -19,7 +19,7 @@ weather_df = spark\
     .read\
     .option('inferSchema', 'true')\
     .option('header', 'true')\
-    .csv('cleaned_data/cleaned_weather_data.csv')
+    .csv('MyFiles/zebra/fuse/spark_project/cleaned_data/cleaned_weather_data.csv')
 
 weather_df.cache().show(10)
 weather_df.printSchema()
@@ -30,7 +30,7 @@ continents_df = spark\
     .read\
     .option('inferSchema', 'true')\
     .option('header', 'true')\
-    .csv('cleaned_data/cleaned_country_continent.csv')
+    .csv('MyFiles/zebra/fuse/spark_project/cleaned_data/cleaned_country_continent.csv')
 
 continents_df.cache().show(10)
 continents_df.printSchema()
